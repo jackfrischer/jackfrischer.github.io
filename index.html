@@ -59,14 +59,20 @@
     }
 
     .column {
-      width: 45rem; /* Set your column width here */
+      width: 25rem; /* Set your column width here */
       margin: auto;
+    }
+    @media (min-width: 300px) {
+      .column {
+        width: 18rem;
+        font-size: 1.3rem;
+      }
     }
 
     /* Larger than mobile */
     @media (min-width: 400px) {
       .column {
-        width: 28rem;
+        width: 25rem;
         font-size: 1.3rem;
       }
     }
