@@ -65,13 +65,14 @@
 
     @media (min-width: 300px) {
       .column {
-        width: 16rem;
+        width: 18rem;
         margin: auto;
       }
-      body {
-        font-size: 1rem; /* currently ems cause chrome bug misinterpreting rems on body element */
-        line-height: 1.2;
+      p {
+        font-size: 1.2rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+        line-height: 1.4;
         font-weight: 300;
+        margin: 0;
     }
 
     /* Larger than mobile */
@@ -80,6 +81,11 @@
         width: 25rem;
         margin: auto;
       }
+      p {
+        font-size: 1.3rem; /* currently ems cause chrome bug misinterpreting rems on body element */
+        line-height: 1.5;
+        font-weight: 300;
+        margin: 0;
     }
 
     /* Larger than phablet (also point when grid becomes active) */
